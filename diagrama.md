@@ -24,3 +24,48 @@ graph TD;
     
     B -->|Opción inválida| O[Mostrar mensaje de error];
     O --> B;
+
+```
+
+# Diagrama de Secuencia
+```mermaid
+sequenceDiagram
+    actor Usuario
+    participant Programa
+    participant Bd_Temporal
+    Programa->> Usuario: Menu
+    activate Usuario
+    Usuario->>Programa: 1 Agregar nuevo registro
+    deactivate Usuario
+    Programa->>Usuario: Ingrese datos
+    Usuario->>Programa: Datos ingresados
+    Programa->> Bd_Temporal: Datos del usuario
+    Bd_Temporal->>Programa: Datos ingresados en 
+    Programa->> Usuario: "Registro agregado con exito"
+
+    Programa->> Usuario: Menu
+    activate Usuario
+    Usuario->>Programa: 2 Buscar por telefono
+    deactivate Usuario
+    Programa->>Usuario: Ingrese telefono
+    Usuario->>Programa: Telefono ingresado
+    Programa->> Bd_Temporal: Telefono a buscar
+    Bd_Temporal->>Programa: Validación de datos asociados al telefono 
+    Programa->> Usuario: "Datos asociados" o "No se encontro"
+
+    Programa->> Usuario: Menu
+    activate Usuario
+    Usuario->>Programa: 3 Borrar registro
+    deactivate Usuario
+    Programa->>Usuario: Ingrese telefono
+    Usuario->>Programa: Telefono ingresado
+    Programa->> Bd_Temporal: Telefono a buscar
+    Bd_Temporal->>Programa: Validación de borrado de datos asociados al telefono 
+    Programa->> Usuario: "Datos asociados" o "No se encontro"
+
+    Programa->> Usuario: Menu
+    activate Usuario
+    Usuario->>Programa: 4 Salir del programa
+    deactivate Usuario
+    Programa->>Usuario: "Despedida"
+```
