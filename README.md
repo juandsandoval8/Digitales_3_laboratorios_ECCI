@@ -14,7 +14,7 @@ rama-2: Proyecto sobre [descripción breve del contenido].
 
 rama-N: Otras actividades desarrolladas en el semestre.
 
-Cómo Usar Este Repositorio
+# Cómo Usar Este Repositorio
 
 Para acceder a una rama específica, puedes usar los siguientes comandos:
 
@@ -24,7 +24,7 @@ git branch -r
 # Cambiar a una rama específica
 git checkout nombre-de-la-rama
 
-Si deseas clonar una rama específica sin descargar todo el repositorio, usa:
+# Si deseas clonar una rama específica sin descargar todo el repositorio, usa:
 
 git clone -b nombre-de-la-rama --single-branch <URL_DEL_REPOSITORIO>
 
