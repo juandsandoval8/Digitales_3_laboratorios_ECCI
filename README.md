@@ -8,7 +8,7 @@ Las ramas del repositorio están organizadas de la siguiente manera:
 
 main: Contiene información general sobre el repositorio y referencias a las diferentes ramas.
 
-rama-1: Trabajo relacionado con [Laboratorio 1 - Directorio telefonico].
+Laboratorio_1_digitales_3: Trabajo relacionado con [Laboratorio 1 - Directorio telefonico](https://github.com/juandsandoval8/Digitales_3_laboratorios_ECCI/tree/Laboratorio_1_digitales_3).
 
 rama-2: Proyecto sobre [descripción breve del contenido].
 
