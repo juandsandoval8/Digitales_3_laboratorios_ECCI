@@ -8,7 +8,7 @@ Las ramas del repositorio están organizadas de la siguiente manera:
 
 main: Contiene información general sobre el repositorio y referencias a las diferentes ramas.
 
-rama-1: Trabajo relacionado con [descripción breve del contenido].
+rama-1: Trabajo relacionado con [Laboratorio 1 - Directorio telefonico].
 
 rama-2: Proyecto sobre [descripción breve del contenido].
 
