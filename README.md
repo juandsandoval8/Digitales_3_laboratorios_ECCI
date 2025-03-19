@@ -10,7 +10,7 @@ main: Contiene información general sobre el repositorio y referencias a las dif
 
 Laboratorio_1_digitales_3: Trabajo relacionado con [Laboratorio 1 - Directorio telefonico](https://github.com/juandsandoval8/Digitales_3_laboratorios_ECCI/tree/Laboratorio_1_digitales_3).
 
-rama-2: Proyecto sobre [descripción breve del contenido].
+Lab01.1_digitales_3: Proyecto sobre [Directorio telefinico usando JSON](https://github.com/juandsandoval8/Digitales_3_laboratorios_ECCI/tree/lab01.1).
 
 rama-N: Otras actividades desarrolladas en el semestre.
 
